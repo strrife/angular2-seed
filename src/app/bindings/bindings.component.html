@@ -1,0 +1,8 @@
+<h2>Binding classes and styles</h2>
+<div [class.red-container]="isRed" [style.width.px]="50" [style.height.px]="50"></div>
+
+<h2>Binding to input</h2>
+<input type="text" [(ngModel)]="text">
+
+<h2>Binding to component</h2>
+<binding-example-component [(text)]="text" (ngModelChange)="triggerUpdate($event)"></binding-example-component>
