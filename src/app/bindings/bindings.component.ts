@@ -1,6 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import CustomValidators from '../forms/CustomValidators';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'bindings',
