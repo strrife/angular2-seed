@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 
-import { AboutComponent } from './about/about.component';
+import { SvgExampleComponent } from './svg/svg.component';
 import { HomeComponent } from './home/home.component';
 import { BindingsComponent } from './bindings/bindings.component';
 import { TransclusionComponent } from './transclusion/transclusion.component';
@@ -12,6 +12,6 @@ export const rootRouterConfig: Routes = [
   { path: 'services', component: ServiceExampleComponent },
   { path: 'transclude', component: TransclusionComponent },
   { path: 'home', component: HomeComponent },
-  { path: 'about', component: AboutComponent }
+  { path: 'svg', component: SvgExampleComponent }
 ];
 

@@ -4,9 +4,11 @@ import { rootRouterConfig } from './app.routes';
 import { AppComponent } from './app.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-import { AboutComponent } from './about/about.component';
 
 import { HomeComponent } from './home/home.component';
+
+import { SvgExampleComponent } from './svg/svg.component';
+import { AwesomeSvgComponent } from './svg/awesome-svg.component';
 
 import { BindingsComponent } from './bindings/bindings.component';
 import { BindingExampleComponent } from './bindings/binding-example-component.component';
@@ -17,13 +19,11 @@ import { NgContentExample2Component } from './transclusion/ng-content-example-2.
 
 import { ServiceExampleComponent } from './services/service-example.component';
 
-// import { AwesomeSvgComponent } from './svg/awesome-svg.component';
-
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent,
-    AboutComponent,
+    SvgExampleComponent,
+    AwesomeSvgComponent,
     HomeComponent,
     BindingsComponent,
     BindingExampleComponent,
@@ -31,7 +31,6 @@ import { ServiceExampleComponent } from './services/service-example.component';
     NgContentExample1Component,
     NgContentExample2Component,
     ServiceExampleComponent
-    // AwesomeSvgComponent
   ],
   imports: [
     BrowserModule,

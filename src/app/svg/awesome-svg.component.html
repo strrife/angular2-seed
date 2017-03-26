@@ -1,0 +1,10 @@
+<svg>
+  <rect
+    *ngFor="let color of colors; let i = index"
+    [attr.fill]="color"
+    [attr.x]="i * 100"
+    y="0"
+    width="50"
+    height="50"
+  ></rect>
+</svg>
