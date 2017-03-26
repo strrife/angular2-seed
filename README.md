@@ -1,7 +1,6 @@
-## angular2-seed
+## Based angular2-seed
 
-A simple starter project demonstrating the basic concepts of Angular 2.
-
+Example project for TopTal article about Angular and Aurelia 
 
 ### Usage
 - Clone or fork this repository
