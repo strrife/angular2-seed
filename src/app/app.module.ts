@@ -15,6 +15,8 @@ import { TransclusionComponent } from './transclusion/transclusion.component';
 import { NgContentExample1Component } from './transclusion/ng-content-example-1.component';
 import { NgContentExample2Component } from './transclusion/ng-content-example-2.component';
 
+import { ServiceExampleComponent } from './services/service-example.component';
+
 // import { AwesomeSvgComponent } from './svg/awesome-svg.component';
 
 @NgModule({
@@ -28,6 +30,7 @@ import { NgContentExample2Component } from './transclusion/ng-content-example-2.
     TransclusionComponent,
     NgContentExample1Component,
     NgContentExample2Component,
+    ServiceExampleComponent
     // AwesomeSvgComponent
   ],
   imports: [
